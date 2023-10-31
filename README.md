@@ -7,6 +7,8 @@ A data Engineer project involves Azure Data Factory, Azure synapse analytics,Azu
 
 ## Data ingestion
 Azure data factory used to connect with on-premises SQL server database to copy all the table from the database and move all the table to the cloud.     
+### create integration runtime
+
 ## Data storage
 The data is stored in Azure Data lake Gen2.         
 ### Different layers of Azure data lake      
