@@ -6,7 +6,8 @@ A data Engineer project involves Azure Data Factory, Azure synapse analytics,Azu
 ## Environment setup
 
 ## Data ingestion
-Azure data factory used to connect with on-premises SQL server database to copy all the table from the database and move all the table to the cloud.     
+The dataset is from Kaggle 2021 Olympic in Tokyo https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data 
+Azure data factory used to connect with HTTP services to copy all the table from the database and move all the table to the cloud.     
 ### create integration runtime
 
 ## Data storage
