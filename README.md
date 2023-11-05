@@ -6,9 +6,9 @@ A data Engineer project involves Azure Data Factory, Azure synapse analytics,Azu
 ## Environment setup
 
 ## Data ingestion
-The dataset is from Kaggle 2021 Olympic in Tokyo https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data 
-Azure data factory used to connect with HTTP services to copy all the table from the database and move all the table to the cloud.     
+The dataset is from Kaggle 2021 Olympic in Tokyo https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data. Import the excel data into mysql.   
 ### create integration runtime
+use integration runtime to load data from on-premises MySQL to Data Lake Gen2.
 
 ## Data storage
 The data is stored in Azure Data lake Gen2.         
