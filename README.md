@@ -1,4 +1,4 @@
-# milestone Project
+# capstone Project
 A data Engineer project involves Azure Data Factory, Azure synapse analytics,Azure Data Lake, Azure Data Bricks, Azure active directory, Azure key vault and power BI
 # achitecture
 <img width="1474" alt="截屏2023-10-29 22 17 10" src="https://github.com/Felicia1993/milestoneProject/assets/22839284/7fa885aa-b46a-400a-9a7d-44d07e7e89bd">
@@ -6,8 +6,9 @@ A data Engineer project involves Azure Data Factory, Azure synapse analytics,Azu
 ## Environment setup
 
 ## Data ingestion
-Azure data factory used to connect with on-premises SQL server database to copy all the table from the database and move all the table to the cloud.     
+The dataset is from Kaggle 2021 Olympic in Tokyo https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data. Import the excel data into mysql.   
 ### create integration runtime
+use integration runtime to load data from on-premises MySQL to Data Lake Gen2.
 
 ## Data storage
 The data is stored in Azure Data lake Gen2.         
@@ -16,7 +17,7 @@ Bronze layer: it has an exact copy of what the data looks like in this data sour
 silver layer: When data loads into bronze layer, use databricks to do some transformation, and load the transformation data into silver layer. 
 gold layer: Different level of transformation, stores final cleanest forms for data  
 ## Data transformation
-Once the data added into Data Lake, we use Databricks to transformation the row data into the most  
+Once the data added into Data Lake, Databricks is used to transformation the row data into the most  
 ## Data Loading     
 ## Data reporting
 ## End to End pipeline testing
