@@ -10,7 +10,7 @@ The dataset is from Kaggle 2021 Olympic in Tokyo https://www.kaggle.com/datasets
 ### Method 1
 Firstly, download dataset from Kaggle and import them into MySQL. Then, create integration runtime by newing self-hosted on Azure and register the runtime ingestion to your on-premises server, in order to load data from on-premises MySQL to Data Lake Gen2. 
 ### Method 2
-copy data from HTTP source by creating copy-data pipeline and define the source and destination of your data. Source is from HTTP dataset and load data to Data Lake Gen2.
+Copy data from HTTP source by creating copy-data pipeline and define the source and destination of your data. Source is from HTTP dataset and load data to Data Lake Gen2.
 
 ## Data storage
 The data is stored in Azure Data lake Gen2.         
