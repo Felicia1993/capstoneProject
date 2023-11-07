@@ -19,10 +19,11 @@ Bronze layer: it has an exact copy of what the data looks like in this data sour
 silver layer: When data loads into bronze layer, use databricks to do some transformation, and load the transformation data into silver layer. 
 gold layer: Different level of transformation, stores final cleanest forms for data  
 ## Data transformation
-Once the data added into Data Lake, Databricks is used to transformation the row data into the most  
+Once the data added into Data Lake, Databricks is used to transformation the row data into silver layer. I use spark sql, query the parquet file to return the total athletes of each country, then store the data into silver folder
 ## Data Loading     
-## Data reporting
+create pipeline and new a get metatdata activity in Synapse studio to get all the table names in silver container.
 ## End to End pipeline testing
+creating pipeline in Data Factory and creating a schedule trigger for this pipeline, to test the whole processdure whether works well by adding some records in table.
 
 
 
